@@ -211,8 +211,7 @@ p{
     display: block;
     margin: 0 auto;
 }
-/*#image { list-style-type: none; margin: 0; padding: 0; width: 60%; }*/
-/*#image li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 18px; }*/
+/*tablet and phone view*/
 @media (max-width: 1200px) {
     #image {
         -moz-column-count:    4;
