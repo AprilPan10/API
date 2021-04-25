@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4" : {
+      "SMS\\model\\": ""
+    }
+  },
+  "require": {
+    "twilio/sdk": "^6.21"
+  }
+}
