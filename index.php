@@ -18,6 +18,7 @@ if(isset($_POST['submit'])) {
             'from'=>$fromNumber,
             'body'=>$link
         ]);
+        $send_success = "Message has been sent";
     }
 
 }
@@ -66,6 +67,7 @@ if(isset($_POST['submit'])) {
         <div>
             <button class="button btn" type="submit" name="submit">Send</button>
         </div>
+        <span class="center"><?= isset($send_success)? $send_success: '' ?></span>
     </div>
 </form>
 <div id="image"></div>

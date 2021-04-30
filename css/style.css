@@ -155,9 +155,8 @@ input{
 #image .ui-selected {
     background: #ff9ebb;
     color: white;
-    transform: scale(1.5);
+    transform: scale(1.2);
     border: #ff9ebb 1px solid;
-
 }
 .widget{
     background-color: #fcefb4;
@@ -210,6 +209,7 @@ p{
 .center{
     display: block;
     margin: 0 auto;
+    text-align: center;
 }
 /*tablet and phone view*/
 @media (max-width: 1200px) {
