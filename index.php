@@ -39,7 +39,7 @@ if(isset($_POST['submit'])) {
     </ul>
 </div>
 <div class="search">
-    <input type="text" id="input">
+    <input type="text" id="input" />
     <button id="submit" class="button" onclick="sendRequest()">Search</button>
     <button  id="refresh" class="button-ref"  onclick="refreshPage()">Refresh</button>
 </div>
@@ -52,7 +52,7 @@ if(isset($_POST['submit'])) {
         <div class="inside">
             <label for="phone">Phone Number:</label>
             <div>
-                <input name="phone" class="phone color" value="<?= isset($phone) ? $phone : ''; ?>" placeholder="(000) 000-0000">
+                <input name="phone" class="phone color" value="<?= isset($phone) ? $phone : ''; ?>" placeholder="(000) 000-0000" />
             </div>
             <span><?= isset($send_error)? $send_error: '' ?></span>
         </div>
@@ -60,7 +60,7 @@ if(isset($_POST['submit'])) {
         <div class="inside">
             <label for="message">Message:</label>
             <div>
-                <input name="message" class="message color">
+                <input name="message" class="message color" />
             </div>
             <span><?= isset($send_error)? $send_error: '' ?></span>
         </div>

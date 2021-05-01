@@ -70,6 +70,7 @@ body {
     border-radius: 5px;
     font-family: 'Quicksand', sans-serif;
 }
+/*button effect from online source*/
 .button:hover{
     background-color: #ff9ebb;
     color: #fff;
@@ -143,8 +144,8 @@ input{
     column-gap: 10px;
 }
 #image img{
-    width: 100% !important;
-    height: auto !important;
+    width: 100%;
+    height: auto;
     margin-top: 1em;
     border: 1px solid #ff9ebb;
     box-shadow: 2px 2px 0 1px #ffeef2;
@@ -155,8 +156,8 @@ input{
 #image .ui-selected {
     background: #ff9ebb;
     color: white;
-    transform: scale(1.2);
-    border: #ff9ebb 1px solid;
+    transform: scale(1.05);
+    border: #f9dc5c 5px solid;
 }
 .widget{
     background-color: #fcefb4;
