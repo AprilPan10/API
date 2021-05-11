@@ -7,7 +7,7 @@ $sid = "";
 $token = "";
 $link = isset($_SESSION['link']) ? $_SESSION['link'] : '';
 if(isset($_POST['submit'])) {
-    $fromNumber = '(647) 492-8728';
+    $fromNumber = '';
     $client = new Twilio\Rest\Client($sid,$token);
     $phone = $_POST['phone'];
     $link = $_POST['message'];
