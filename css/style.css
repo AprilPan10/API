@@ -212,6 +212,15 @@ p{
     margin: 0 auto;
     text-align: center;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
 /*tablet and phone view*/
 @media (max-width: 1200px) {
     #image {
