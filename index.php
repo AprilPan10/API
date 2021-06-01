@@ -3,11 +3,11 @@ require_once 'vendor/autoload.php';
 
 use Twilio\Rest\Client;
 session_start();
-$sid = "";
-$token = "";
+$sid = "AC6011f611fb72af58a9b2b69d27f0559c";
+$token = "ffcee118fab15f7c0ae001e29bf7818a";
 $link = isset($_SESSION['link']) ? $_SESSION['link'] : '';
 if(isset($_POST['submit'])) {
-    $fromNumber = '';
+    $fromNumber = '(647) 492-8728';
     $client = new Twilio\Rest\Client($sid,$token);
     $phone = $_POST['phone'];
     $link = $_POST['message'];

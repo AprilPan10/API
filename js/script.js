@@ -1,6 +1,6 @@
 function sendRequest(){
     var userInput = document.getElementById("input").value;
-    var giphyApiKey = '';
+    var giphyApiKey = '4U151ZOVXWgyiJcqdKYX5fyuOwrPU6P2';
     var giphyApiURL = `https://api.giphy.com/v1/gifs/search?q=${userInput}&rating=g&api_key=${giphyApiKey}&limit=20`;
     fetch(giphyApiURL).then(function (data){
         return data.json()
